@@ -1,0 +1,24 @@
+# Environnements Python
+.env
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Outputs images (les CSV de résultats sont versionnés)
+outputs/*.png
+outputs/*.jpg
+
+# Artefact de vérification (notebook 00) — duplique data/eli_lilly.csv, régénéré à chaque run
+outputs/eli_lilly_reextrait.csv
+
+# Système / IDE
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
